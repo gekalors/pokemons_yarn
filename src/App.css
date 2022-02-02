@@ -1,0 +1,62 @@
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Poke_img_class{
+  
+  height: 500px;
+ overflow-y: hidden;
+ opacity: .98;
+ transition: transform .1s linear;
+ margin-bottom: 0;
+ padding-bottom: 0;
+
+  
+}
+/* .Pokeback_img_class{
+  height: 500px;
+  overflow-y: hidden;
+  background: linear-gradient(to bottom, yellow,black);
+} */
+.Poke_img_class:hover, .Poke_img_class img{
+  opacity: 1;
+  transform: translate3d(0,-10px,0);
+
+}
+.Poke_img_class img{
+  transition: opacity .1s linear;
+}
+.Poke_div_class{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  overflow-y: hidden;
+}
+
+
+
+
